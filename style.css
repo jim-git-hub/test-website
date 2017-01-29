@@ -1,0 +1,94 @@
+html, body, h1, h2, h3, h4, p, div {
+	margin:0;
+	padding:0;
+	border:0;
+	font: inherit;
+	font-size:100%;
+}
+html,body
+{
+    height:100%;
+    width:100%;
+}
+
+body {
+	background-color: #404749;
+	font-family: Garamond, serif;
+
+}
+
+.header{
+	text-align: center;
+	background-color:  #3a4245; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, #404749, #1e2223, #404749 ); 		/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(     left, #404749, #1e2223, #404749 ); 		/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(   left, #404749, #1e2223, #404749 ); 		/* For Firefox 3.6 to 15 */
+	background: linear-gradient(        left, #404749, #1e2223, #404749 ); 		/* Standard syntax */
+}
+
+.header ul {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+.header li {
+	display: inline-block;
+	margin: 5px 10px;
+}
+
+.header li a {
+	text-decoration: none;
+	color: #e59806;
+	font-size: 20px;
+}
+
+
+
+.page-container {
+	background-color: #404749;
+	background-image: url("img/8e0279bd.png");
+	height: 100%;
+}
+
+.main-content {
+	background-color:  #4e5252;
+	height: 100%;
+}
+
+.centre-column {
+	width: 700px;
+	margin: 0px auto;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.height-onehundred {
+	height: 100px;
+}
+
+.dark-grey-background {
+	background-color: #454e50;
+}
+
+.light-grey-background {
+	background-color: #1e2223;
+}
+
+
+
+
+/* #5fc5e2 */
+
+h1{
+	text-align: center;
+	color: #e59806;
+	font-size:35px;
+	padding: 10px;
+}
+
+p {
+	color: #a5aeb0;
+}
